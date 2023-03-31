@@ -1,0 +1,97 @@
+.subscribe__cm{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    // background-color: blueviolet;
+    position: relative;
+    .subscribe{
+        text-align: center;
+        width: 50%;
+        background: #fff4f4e1;
+        height: 292px;
+        border-radius: 20px;
+        h4{
+            font-size: 44px;
+            font-weight: 700;
+            color: #180202;
+            margin-bottom: 6px;
+            margin-top: 50px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            color: #180202;
+            margin-bottom: 35px;
+        }
+        label{
+            position: relative;
+            input{
+                height: 60px;
+                // width: 455px;
+                padding: 0px 200px 0px 30px;
+                border-radius: 73px;
+                border: none;
+                outline: none;
+            }
+            button{
+                background-color: #FF4948;
+                color: #fff;
+                font-size: 22px;
+                font-weight: 500;
+                border-radius: 50px;
+                padding: 13px 30px;
+                border: none;
+                outline: none;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+}
+
+.left_noteB{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #FCB2B1;
+    font-size: 120px;
+    font-weight: 500;
+    transform: rotate(25deg);
+}
+.left_noteBS{
+    position: absolute;
+    left: 150px;
+    bottom: 50px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #FCB2B1;
+    transform: rotate(25deg);
+}
+.left_noteS{
+    color: #FCB2B1;
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+    left: 20px;
+    // top: 50px;
+    transform: rotate(-30deg);
+}
+.right_noteS{
+    position: absolute;
+    top: 50px;
+    right: 170px;
+    font-size: 50px;
+    color: #FCB2B1;
+    font-weight: 500;
+    transform: rotate(-30deg);
+}
+.right_noteB{
+    font-size: 120px;
+    color: #FCB2B1;
+    font-weight: 500;
+    position: absolute;
+    right: 50px;
+}

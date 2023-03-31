@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    li {
+      padding: 13px 18px;
+      border-radius: 50%;
+      background-color: #fff;
+      display: flex;
+      margin: 0 32px;
+      cursor: pointer;
+      a {
+        font-size: 22px;
+        color: #ff4948;
+        outline: none;
+        // padding: 13px 18px;
+        border-radius: 50%;
+      }
+    }
+    li:hover {
+      background-color: #ffffffdc;
+    }
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    img {
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
+
+.beforeafter::before,
+.beforeafter::after {
+  content: " ";
+  display: block;
+  height: 20px;
+  width: 2px;
+  background-color: #fff;
+}
+
+header {
+  background-image: url("../../assets/img/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  // margin-bottom: 500vh;
+  height: 100vh;
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 26px;
+    // margin-top: 10px;
+    img {
+      height: 500px;
+      width: 550px;
+      object-fit: contain;
+    }
+    .hero__text {
+      p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-size: 72px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        width: 400px;
+      }
+      .price__span {
+        display: flex;
+        align-items: center;
+        h5::after {
+          content: " ";
+          display: block;
+          width: 1px;
+          height: 45px;
+          background-color: #fff;
+          margin: 0 20px;
+        }
+        h5 {
+          display: flex;
+          align-items: center;
+          color: #fff;
+          font-size: 25px;
+        }
+        h6 {
+          text-decoration: line-through;
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+      button {
+        background-color: #fff;
+        color: #ff4948;
+        font-weight: bold;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 100px;
+        text-transform: uppercase;
+        outline: none;
+        margin-top: 35px;
+      }
+    }
+  }
+}
